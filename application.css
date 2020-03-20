@@ -1,0 +1,81 @@
+body * {
+    font-family: 'Sigmar One', cursive;
+}
+.board {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 30px;
+    margin-left: 50px;
+    /* text-align: center; */
+}
+
+p {
+    font-size: 13px;
+    margin: 0px 0px 25px 60px;
+}
+
+.row {
+    text-align: center;
+    height: 25px;
+}
+
+.tile {
+    box-sizing: border-box;
+    /* padding: 2px; */
+    border-style: outset;
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    border-color: lightcyan;
+    border-width: 3px;
+    background-color: rgba(121, 179, 230, 0.762);
+    float: left;
+    text-align: center;
+}
+
+.explore, .bomb{
+    border-style: inset;
+    background-color: rgba(152, 188, 220, 0.762);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 1, 3, 0.8)
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.44);
+    position: absolute;
+    top: 85px;
+    left: 200px;
+    padding: 15px;
+    border-radius: 2rem;
+}
+
+.unexplore {
+    cursor: crosshair;
+}
+
+.flag {
+    color: rgb(157, 0, 255)
+}
+
+.num2 {
+    color: maroon;
+}
+
+button {
+    border-radius: 2rem;
+    margin: 5px;
+    font-size: 14px;
+}
+
